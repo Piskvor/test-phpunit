@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7476ed4a-aa29-4e3d-8e23-42558fbc2ceb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/test-phpunit.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/config.neon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/Error4xxPresenter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/ErrorPresenter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/templates/@layout.latte" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/templates/Error/403.latte" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/templates/Error/404.latte" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/templates/Error/405.latte" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/templates/Error/410.latte" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/templates/Error/4xx.latte" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/templates/Error/500.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/templates/Homepage/default.latte" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/router/RouterFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bin/tester" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bin/tester.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Compiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Engine.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/HtmlNode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/ILoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/IMacro.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Loaders/FileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Loaders/StringLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/MacroNode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/MacroTokens.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Macros/BlockMacros.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Macros/BlockMacrosRuntime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Macros/CoreMacros.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Macros/MacroSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Object.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Parser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/PhpWriter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Runtime/CachingIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Runtime/Filters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Runtime/Html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Runtime/IHtmlString.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/TokenIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/Tokenizer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/Latte/exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/latte/latte/src/latte.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Application.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/ErrorPresenter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/IPresenter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/IPresenterFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/IResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/IRouter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/LinkGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/MicroPresenter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/PresenterFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/CallbackResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/FileResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/ForwardResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/JsonResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/RedirectResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Responses/TextResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Routers/CliRouter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Routers/Route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Routers/RouteList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/Routers/SimpleRouter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/BadSignalException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Control.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/IRenderable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/ISignalReceiver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/IStatePersistent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/ITemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/ITemplateFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/InvalidLinkException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Link.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Multiplier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/Presenter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/PresenterComponent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/UI/PresenterComponentReflection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Application/templates/error.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationDI/ApplicationExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationDI/LatteExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationDI/PresenterFactoryCallback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationDI/RoutingExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/ILatteFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/Loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/Template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/TemplateFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/UIMacros.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationLatte/UIRuntime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationTracy/RoutingPanel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationTracy/templates/RoutingPanel.panel.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/application/src/Bridges/ApplicationTracy/templates/RoutingPanel.tab.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/bootstrap/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/bootstrap/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/bootstrap/src/Bootstrap/Configurator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/bootstrap/src/Bridges/Framework/TracyBridge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Bridges/CacheDI/CacheExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Bridges/CacheLatte/CacheMacro.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/IStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/OutputHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/DevNullStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/FileJournal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/FileStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/IJournal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/MemcachedStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/MemoryStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/NewMemcachedStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/caching/src/Caching/Storages/SQLiteStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/component-model/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/component-model/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/component-model/src/ComponentModel/Component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/component-model/src/ComponentModel/Container.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/component-model/src/ComponentModel/IComponent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/component-model/src/ComponentModel/IContainer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/component-model/src/ComponentModel/RecursiveComponentIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Bridges/DatabaseDI/DatabaseExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Bridges/DatabaseTracy/ConnectionPanel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Bridges/DatabaseTracy/templates/ConnectionPanel.panel.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Bridges/DatabaseTracy/templates/ConnectionPanel.tab.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Context.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Conventions/DiscoveredConventions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Conventions/StaticConventions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Conventions/exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/DriverException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Drivers/MsSqlDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Drivers/MySqlDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Drivers/OciDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Drivers/OdbcDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Drivers/PgSqlDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Drivers/Sqlite2Driver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Drivers/SqliteDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Drivers/SqlsrvDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/IConventions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/IRow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/IRowContainer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/IStructure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/ISupplementalDriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/ResultSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Row.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/SqlLiteral.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/SqlPreprocessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Structure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Table/ActiveRow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Table/GroupedSelection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Table/IRow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Table/IRowContainer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Table/Selection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/Table/SqlBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/deprecated/ConventionalReflection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/deprecated/DiscoveredReflection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/deprecated/IReflection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/deprecated/exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/database/src/Database/exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/Bridges/DITracy/ContainerPanel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/Bridges/DITracy/templates/ContainerPanel.panel.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/Bridges/DITracy/templates/ContainerPanel.tab.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Compiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/CompilerExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Adapters/IniAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Adapters/NeonAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Adapters/PhpAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/IAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Config/Loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Container.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/ContainerBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/ContainerFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/ContainerLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Extensions/ConstantsExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Extensions/DIExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Extensions/DecoratorExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Extensions/ExtensionsExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Extensions/InjectExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Extensions/PhpExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/PhpReflection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/ServiceDefinition.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/Statement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/di/src/DI/exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/finder/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/finder/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/finder/src/Finder/CallbackFilterIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/finder/src/Finder/Finder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/finder/src/Finder/RecursiveCallbackFilterIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Bridges/FormsDI/FormsExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Bridges/FormsLatte/FormMacros.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Bridges/FormsLatte/Runtime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Container.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/ControlGroup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/BaseControl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/Button.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/Checkbox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/CheckboxList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/ChoiceControl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/CsrfProtection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/HiddenField.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/ImageButton.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/MultiChoiceControl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/MultiSelectBox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/RadioList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/SelectBox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/SubmitButton.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextArea.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextInput.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/UploadControl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/IControl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/IFormRenderer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/ISubmitterControl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rendering/DefaultFormRenderer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rule.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rules.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Validator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/assets/netteForms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Bridges/HttpDI/HttpExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Bridges/HttpDI/SessionExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Bridges/HttpTracy/SessionPanel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Bridges/HttpTracy/templates/SessionPanel.panel.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Bridges/HttpTracy/templates/SessionPanel.tab.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/Context.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/FileUpload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/Helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/IRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/IResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/ISessionStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/RequestFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/Session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/SessionSection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/Url.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/UrlScript.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/http/src/Http/UserStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/mail/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/mail/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/mail/src/Bridges/MailDI/MailExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/mail/src/Mail/IMailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/mail/src/Mail/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/mail/src/Mail/MimePart.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/mail/src/Mail/SendmailMailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/mail/src/Mail/SmtpMailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/mail/src/Mail/exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/neon/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/neon/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Decoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Encoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Entity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/neon/src/Neon/Neon.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/neon/src/neon.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/php-generator/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/php-generator/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/php-generator/src/PhpGenerator/ClassType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/php-generator/src/PhpGenerator/Helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/php-generator/src/PhpGenerator/Method.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/php-generator/src/PhpGenerator/Parameter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/php-generator/src/PhpGenerator/PhpFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/php-generator/src/PhpGenerator/PhpLiteral.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/php-generator/src/PhpGenerator/PhpNamespace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/php-generator/src/PhpGenerator/Property.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/src/Bridges/ReflectionDI/ReflectionExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/src/Reflection/Annotation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/src/Reflection/AnnotationsParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/src/Reflection/ClassType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/src/Reflection/Extension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/src/Reflection/GlobalFunction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/src/Reflection/Helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/src/Reflection/IAnnotation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/src/Reflection/Method.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/src/Reflection/Parameter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/reflection/src/Reflection/Property.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/robot-loader/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/robot-loader/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/robot-loader/src/RobotLoader/RobotLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/safe-stream/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/safe-stream/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/safe-stream/src/SafeStream/SafeStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/safe-stream/src/loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Bridges/SecurityDI/SecurityExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Bridges/SecurityTracy/UserPanel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Bridges/SecurityTracy/templates/UserPanel.panel.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Bridges/SecurityTracy/templates/UserPanel.tab.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/AuthenticationException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/IAuthenticator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/IAuthorizator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/IIdentity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/IResource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/IRole.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/IUserStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/Identity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/Passwords.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/Permission.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/SimpleAuthenticator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/security/src/Security/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/CodeCoverage/Collector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/CodeCoverage/Generators/AbstractGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/CodeCoverage/Generators/CloverXMLGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/CodeCoverage/Generators/HtmlGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/CodeCoverage/Generators/template.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/CodeCoverage/PhpParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Framework/Assert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Framework/AssertException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Framework/DataProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Framework/DomQuery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Framework/Dumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Framework/Environment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Framework/FileMock.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Framework/Helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Framework/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/CliTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/CommandLine.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/HhvmPhpInterpreter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/Job.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/Output/ConsolePrinter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/Output/JUnitPrinter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/Output/Logger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/Output/TapPrinter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/OutputHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/PhpInterpreter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/Runner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/TestHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/ZendPhpDbgInterpreter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/ZendPhpInterpreter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/Runner/info.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/tester" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/tester/src/tester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Iterators/CachingIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Iterators/Filter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Iterators/Mapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Iterators/RecursiveFilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/ArrayHash.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/ArrayList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Arrays.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Callback.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/DateTime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/FileSystem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/IHtmlString.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/ITranslator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Json.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Object.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/ObjectMixin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Paginator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Random.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Strings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/Validators.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nette/utils/src/Utils/exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Bridges/Nette/TracyExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/BlueScreen.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Debugger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/DefaultBarPanel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Dumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/FireLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/IBarPanel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/ILogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/Logger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/OutputDebugger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/Bar/bar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/Bar/bar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/Bar/bar.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/Bar/dumps.panel.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/Bar/dumps.tab.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/Bar/errors.panel.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/Bar/errors.tab.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/Bar/info.panel.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/Bar/info.tab.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/BlueScreen/bluescreen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/BlueScreen/bluescreen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/BlueScreen/bluescreen.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/Debugger/error.500.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/Dumper/dumper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/Tracy/assets/Dumper/dumper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/shortcuts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/tracy/tracy/src/tracy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/.maintenance.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/robots.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" phpInterpreterId="5e00e88b-e289-41f5-8d54-a4a469f76e0a">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>$USER_HOME$/bin/composer.phar</pharPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="test-phpunit" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/latte/latte" />
+      <path value="$PROJECT_DIR$/vendor/nette/reflection" />
+      <path value="$PROJECT_DIR$/vendor/nette/mail" />
+      <path value="$PROJECT_DIR$/vendor/nette/neon" />
+      <path value="$PROJECT_DIR$/vendor/nette/di" />
+      <path value="$PROJECT_DIR$/vendor/nette/tester" />
+      <path value="$PROJECT_DIR$/vendor/nette/component-model" />
+      <path value="$PROJECT_DIR$/vendor/nette/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/nette/caching" />
+      <path value="$PROJECT_DIR$/vendor/nette/finder" />
+      <path value="$PROJECT_DIR$/vendor/nette/php-generator" />
+      <path value="$PROJECT_DIR$/vendor/nette/security" />
+      <path value="$PROJECT_DIR$/vendor/nette/robot-loader" />
+      <path value="$PROJECT_DIR$/vendor/nette/database" />
+      <path value="$PROJECT_DIR$/vendor/nette/application" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/nette/safe-stream" />
+      <path value="$PROJECT_DIR$/vendor/nette/http" />
+      <path value="$PROJECT_DIR$/vendor/nette/forms" />
+      <path value="$PROJECT_DIR$/vendor/tracy/tracy" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
+    <option name="y" value="-3" />
+    <option name="width" value="1926" />
+    <option name="height" value="1052" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-phpunit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-phpunit" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-phpunit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-phpunit" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7476ed4a-aa29-4e3d-8e23-42558fbc2ceb" name="Default" comment="" />
+      <created>1477910700227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1477910700227</updated>
+      <workItem from="1477910701992" duration="349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="349000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="-3" width="1926" height="1052" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
