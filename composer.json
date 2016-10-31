@@ -22,6 +22,7 @@
 		"tracy/tracy": "^2.3"
 	},
 	"require-dev": {
-		"nette/tester": "^1.6"
+		"nette/tester": "^1.6",
+		"phpunit/phpunit": ">= 3.7.14"
 	}
 }
