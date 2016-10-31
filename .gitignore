@@ -2,3 +2,4 @@ app/config/config.local.neon
 .idea/
 composer.lock
 vendor/
+tests/_output/*
